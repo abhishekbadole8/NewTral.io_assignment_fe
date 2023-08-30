@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.AuthPage {
+    width: 100%;
+    height: 100vh;
+    background: #36416A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.AuthPagecontainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15vh;
+}
+
+.headingBox {
+    padding-left: 1vw;
+    padding-bottom: 2.5vh;
+    color: #fff;
+}
+
+.headingBox h2 {
+    font-size: 2.6rem;
+}
+
+.headingBox p {
+    padding-top: 1vh;
+    font-size: 1.3rem;
+}
+
+.AuthPageLoginBox {
+    padding: 2.75rem 3.15rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 36px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5vh;
+}
+
+/* Error Msg */
+.errorMsg {
+    color: red;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-left: 1.5vw;
+}
+
+.AuthPageLoginBox input {
+    font-size: 1.3rem;
+    width: 90%;
+    height: 5.5vh;
+    padding-left: .5vw;
+    color: #737373;
+    border: none;
+    border-bottom: 1px solid #AAAAAA;
+}
+
+.AuthPageLoginBox p {
+    color: #737373;
+    margin: 1vh 1.5vw;
+    font-size: 1.1rem;
+}
+
+.AuthPageLoginBox span {
+    text-decoration-line: underline;
+    color: #36416A;
+    font-size: 1.1rem;
+    margin-left: .5vw;
+    cursor: pointer;
+}
+
+.name,
+.email,
+.mobile,
+.password {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.loginButton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.loginButton button {
+    color: #fff;
+    width: 7.95vw;
+    height: 5.5vh;
+    font-size: 1.1rem;
+    background: #36416A;
+    border-radius: 27.907px;
+    border: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 850px) {
+    .AuthPagecontainer {
+        align-items: center;
+        padding-top: 16%;
+        gap: 1vh;
+    }
+
+    .AuthPageLoginBox {
+        padding: 5vw 7vw;
+        gap: 3.25vh;
+    }
+
+    .AuthPageLoginBox p {
+        font-size: 1.2rem;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1.2vh;
+        margin-left: 4vw;
+    }
+
+    .AuthPageLoginBox input {
+        padding-left: 2vw;
+    }
+
+    .headingBox {
+        padding: 0 10vw 5vh 11vw;
+    }
+
+    .headingBox h2 {
+        font-size: 2.55rem;
+    }
+
+    .loginButton button {
+        width: 100%;
+        margin: auto 5%;
+    }
+
+    .email,
+    .password {
+        gap: 6.5%;
+    }
+
+}

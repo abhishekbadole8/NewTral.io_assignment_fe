@@ -1,0 +1,50 @@
+.Dashboard {
+    font-family: 'DM Sans', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+.mainContainer {
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.taskForm {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin: auto;
+}
+
+.taskForm label {
+    font-size: 1.2rem;
+    margin-right: .5rem;
+}
+
+.taskForm input,
+.taskForm select,
+.submitBtn button {
+    font-size: 1.1rem;
+    padding: .3rem;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.submitBtn button {
+    cursor: pointer;
+    padding: .3rem .65rem;
+}
+
+/* display */
+.displayTask {
+    margin-top: 2rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

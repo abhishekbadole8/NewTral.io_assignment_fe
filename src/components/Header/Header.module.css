@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: .75rem 1.2rem .75rem 1.85rem;
+    font-family: 'DM Sans', sans-serif;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+    position: relative;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.logo h4 {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.logoutContainer button {
+    cursor: pointer;
+    font-size: .9rem;
+    background-color: #FF7373;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: .65rem 1.1rem;
+    display: flex;
+    gap: .13rem;
+    align-items: center;
+}
+.logoutContainer button:hover{
+    background-color: rgb(236, 70, 70);
+}
+@media screen and (max-width:750px) {
+    .header {
+        padding: .75rem 1rem;
+    }
+
+    .logo h4 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .registerloginbtn button {
+        padding: .45rem .75rem;
+        border-radius: 11px;
+    }
+
+}
