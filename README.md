@@ -1,5 +1,7 @@
 ## NewTral Assignment
 
+Deploy Link: https://new-tral-io.vercel.app/
+
 Certainly! Here's a shorter version of the installation guide:
 
 ## NewTral Assignment Installation in Short
